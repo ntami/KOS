@@ -1,0 +1,27 @@
+.father{
+	padding-left: 20px;
+}
+.son{
+	margin: -27px 63px;
+	position: absolute;
+	display: none;
+	padding-left: 40px;
+	background-color: #f9f9f9;
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.son>a{
+	float: none;
+	display: block;
+	color: black;
+}
+.father:hover .son{
+	display: block;
+}
+a{
+	text-decoration:none!important;
+}
+aside>a,.father>a{
+	color: black;
+}
